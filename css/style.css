@@ -3,10 +3,11 @@ body {
   padding: 0;
   background-color: #E4EBEA; }
 
-header.background-h {
+.background-h {
   height: 100vh;
-  background-image: url(image/laptop-work.png);
+  background-image: url(../image/laptop-work.png);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%); }
