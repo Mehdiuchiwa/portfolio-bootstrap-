@@ -1,15 +1,19 @@
-body{
-  margin:0;
-  padding: 0;
-  background-color: #E4EBEA;
-  
-}
- .background-h{
-  height: 100vh;
-  background-image: url(../image/laptop-work.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat:no-repeat;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
-}
+
+$color:red;
+
+@import "partials/base";
+@import "partials/header";
+@import "partials/about";
+
+
+
+ 
+
+
+
+
+
+
+
+
+

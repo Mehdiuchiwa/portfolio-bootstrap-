@@ -1,0 +1,43 @@
+.background-h{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+  }
+  
+  .topbar{
+      width: 100%;
+      background-color: white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  .navbar-logo{
+      font-size: 2.5rem;
+      font-family: 'brandon_grotesquebold', sans-serif;
+      font-weight: bold;
+      background: -webkit-linear-gradient(#4158D0,#C850C0,#FFCC70);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+  .nav-link{
+      padding: 0;
+      margin-left: 40px;
+  }
+  .baseline{
+      width: 400px;
+      height: 400px;
+      background: transparent;
+      border: 2px solid white;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color:white;
+  }

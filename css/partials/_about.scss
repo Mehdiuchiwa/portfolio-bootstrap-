@@ -1,0 +1,40 @@
+#about-me{
+    background: $color;
+    width: 100%;
+    color: #fff;
+    padding: 88px 0 40px;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, .5);
+    margin-top: -72px;
+    h1{
+        
+        text-align: center;
+    }
+    
+}
+.btn-cv{
+    padding:15px 30px;
+    font-size: 1.6rem;
+    background-color: white;
+    color:black;
+}
+
+.img-profile{
+    width: 260px;
+    height: 260px;
+    border:1px solid white;
+    border-radius:50%;
+    background-image: url(../image/photo-mehdi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex:none;
+    align-self: flex-start;  
+  }
+
+  @media screen and (max-width: 767px){
+    
+    .img-profile{
+        margin:0 auto;
+    } 
+
+  }
